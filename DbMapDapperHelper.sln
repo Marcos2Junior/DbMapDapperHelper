@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36202.13 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbMapDapperHelper", "DbMapDapperHelper\DbMapDapperHelper.csproj", "{0D1EB790-DD81-4F14-A4C2-D9DB2F51E33E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbMapDapperHelper.Test", "DbMapDapperHelper.Test\DbMapDapperHelper.Test.csproj", "{4FE75BB9-1072-4E33-AE7A-7AA5F64936A6}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D1EB790-DD81-4F14-A4C2-D9DB2F51E33E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D1EB790-DD81-4F14-A4C2-D9DB2F51E33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D1EB790-DD81-4F14-A4C2-D9DB2F51E33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D1EB790-DD81-4F14-A4C2-D9DB2F51E33E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FE75BB9-1072-4E33-AE7A-7AA5F64936A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE75BB9-1072-4E33-AE7A-7AA5F64936A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FE75BB9-1072-4E33-AE7A-7AA5F64936A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE75BB9-1072-4E33-AE7A-7AA5F64936A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
